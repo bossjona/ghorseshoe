@@ -1,0 +1,4 @@
+useDynLib(ghorseshoe, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom(GeneralizedHyperbolic, rgig)
+exportPattern("^[[:alpha:]]+")
